@@ -1,7 +1,7 @@
 public class Statistics {
 
     public int max(int[] salaries) {
-        int max = salaries[0];
+        int max = 0;
         for (int salary : salaries) {
             if (salary > max) {
                 max = salary;
