@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello Learnup!");
+        String[] inputData = { "24 5 66", "4", "97 65" };
+
+        int max = Statistics.maxStr(inputData);
+        System.out.println(max);
     }
 }
