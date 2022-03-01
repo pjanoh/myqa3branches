@@ -1,8 +1,8 @@
 public class Statistics {
 
-    public int max(int[] salaries) {
-        int max = salaries[0];
-        for (int salary : salaries) {
+    public long max(long[] salaries) {
+        long max = salaries[0];
+        for (long salary : salaries) {
             if (salary > max) {
                 max = salary;
             }
